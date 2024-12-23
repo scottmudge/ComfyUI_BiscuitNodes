@@ -1,7 +1,7 @@
 [project]
-name = "ComfyUI_Ib_CustomNodes"
-version = "0.2.2"
-description = 'Load Image From Path, PIL.Image'
+name = "ComfyUI_BiscuitNodes"
+version = "0.1.0"
+description = 'Load Image From Path Using File Selector'
 readme = "README.md"
 # requires-python = ">=3.8"
 license = "MIT"
@@ -9,7 +9,7 @@ keywords = ["comfyui"]
 dynamic = ["dependencies"]
 
 [project.urls]
-Homepage = "https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes"
+Homepage = "https://github.com/scottmudge/ComfyUI_BiscuitNodes"
 comfyui-legacy = "https://github.com/Chaoses-Ib/comfyui-legacy"
 
 [build-system]
@@ -34,10 +34,10 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.sdist.sources]
-"." = "ComfyUI_Ib_CustomNodes"
+"." = "ComfyUI_BiscuitNodes"
 
 [tool.hatch.build.targets.wheel.sources]
-"." = "ComfyUI_Ib_CustomNodes"
+"." = "ComfyUI_BiscuitNodes"
 
 [project.entry-points."comfyui_legacy.custom_nodes"]
-ComfyUI_Ib_CustomNodes = "ComfyUI_Ib_CustomNodes"
+ComfyUI_BiscuitNodes = "ComfyUI_BiscuitNodes"
